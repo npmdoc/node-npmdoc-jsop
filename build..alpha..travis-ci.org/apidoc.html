@@ -70,28 +70,6 @@
 
         </li>
 
-        <li>
-
-            <a class="apidocElementLiA" href="#apidoc.element.jsop.toString">
-            function <span class="apidocSignatureSpan">jsop.</span>toString
-            <span class="apidocSignatureSpan">()</span>
-            </a>
-
-        </li>
-
-    </ol></li>
-
-    <li class="apidocModuleLi"><a href="#apidoc.module.jsop.toString">module jsop.toString</a><ol>
-
-        <li>
-
-            <a class="apidocElementLiA" href="#apidoc.element.jsop.toString.toString">
-            function <span class="apidocSignatureSpan">jsop.</span>toString
-            <span class="apidocSignatureSpan">()</span>
-            </a>
-
-        </li>
-
     </ol></li>
 
 </ol></div>
@@ -122,71 +100,6 @@
   }
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
-    </ul>
-
-
-
-    <h2>
-        <a href="#apidoc.element.jsop.toString" id="apidoc.element.jsop.toString">
-        function <span class="apidocSignatureSpan">jsop.</span>toString
-        <span class="apidocSignatureSpan">()</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">toString = function () {
-    return text;
-}</pre></li>
-    <li>example usage<pre class="apidocCodePre">...
-  var obj = main(&#x27;file.json&#x27;)
-  assert.deepEqual(obj, {})
-
-  obj.a = 1
-
-  setTimeout(function() {
-    assert.equal(
-      fs.readFileSync(&#x27;file.json&#x27;).<span class="apidocCodeKeywordSpan">toString</span>(),
-      JSON.stringify(obj, null, 2)
-    )
-    done()
-  }, 500)
-})
-
-it(&#x27;saves once&#x27;, function(done) {
-...</pre></li>
-    </ul>
-
-
-</div>
-
-<div class="apidocSectionDiv">
-<h1><a href="#apidoc.module.jsop.toString" id="apidoc.module.jsop.toString">module jsop.toString</a></h1>
-
-
-    <h2>
-        <a href="#apidoc.element.jsop.toString.toString" id="apidoc.element.jsop.toString.toString">
-        function <span class="apidocSignatureSpan">jsop.</span>toString
-        <span class="apidocSignatureSpan">()</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">function toString() { [native code] }</pre></li>
-    <li>example usage<pre class="apidocCodePre">...
-  var obj = main(&#x27;file.json&#x27;)
-  assert.deepEqual(obj, {})
-
-  obj.a = 1
-
-  setTimeout(function() {
-    assert.equal(
-      fs.readFileSync(&#x27;file.json&#x27;).<span class="apidocCodeKeywordSpan">toString</span>(),
-      JSON.stringify(obj, null, 2)
-    )
-    done()
-  }, 500)
-})
-
-it(&#x27;saves once&#x27;, function(done) {
-...</pre></li>
     </ul>
 
 
