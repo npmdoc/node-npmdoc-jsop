@@ -1,4 +1,7 @@
-# api documentation for  [jsop (v0.3.1)](https://github.com/typicode/jsop)  [![npm package](https://img.shields.io/npm/v/npmdoc-jsop.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-jsop) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-jsop.svg)](https://travis-ci.org/npmdoc/node-npmdoc-jsop)
+# npmdoc-jsop
+
+#### api documentation for  [jsop (v0.3.1)](https://github.com/typicode/jsop)  [![npm package](https://img.shields.io/npm/v/npmdoc-jsop.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-jsop) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-jsop.svg)](https://travis-ci.org/npmdoc/node-npmdoc-jsop)
+
 #### One-way data-binding for JSON files
 
 [![NPM](https://nodei.co/npm/jsop.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/jsop)
